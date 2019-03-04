@@ -1,0 +1,8 @@
+SELECT TOP (1000) [fullname]
+      ,[person_address]
+      ,[hire_date]
+      ,[gender]
+      ,[phone_number]
+      ,[car_type]
+      ,[hire_duration]
+  FROM [my_user_db].[dbo].[car]
